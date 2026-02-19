@@ -13,7 +13,7 @@ const MethodPage: React.FC = () => {
             <AnimatedSection className="flex-shrink-0">
               <div className="w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-white">
                 <img 
-                  src="/michael.delhommeau" 
+                  src="/michael.delhommeau.jpg" 
                   alt="Michaël Delhommeau" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
