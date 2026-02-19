@@ -35,7 +35,7 @@ const ConceptPage: React.FC = () => {
                   "Perdent du temps dans des process inefficaces.",
                   "Se sentent encombrés par des tâches sans valeur ajoutée.",
                   "Veulent reprendre le contrôle de leur organisation.",
-                  "Cherchent à simplifier pour se concentrer sur leur cœur de métier."
+                  "Cherchent à simplifier pour se concentrer sur leur valeur ajoutée."
                 ].map((item, idx) => (
                   <li key={idx} className="flex gap-4 p-5 bg-slate-50 rounded-2xl border border-slate-100">
                     <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center flex-shrink-0 mt-1">
