@@ -106,7 +106,7 @@ ${formData.teamIAReason ? `   └ Raison : ${formData.teamIAReason}` : ''}
 Généré via Libr'Audit - Libérez votre organisation.
 `;
 
-    const mailtoUrl = `michael.delhommeau@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoUrl = `mailto:michael.delhommeau@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoUrl;
     setIsSubmitted(true);
   };
