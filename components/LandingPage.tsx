@@ -60,7 +60,7 @@ const LandingPage: React.FC = () => {
                   <div className="absolute -top-10 -left-10 w-40 h-40 bg-blue-100 rounded-full blur-3xl opacity-60" />
                   <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-emerald-100 rounded-full blur-3xl opacity-60" />
                   <img 
-                    src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1000" 
+                    src="/mindnode.png" 
                     alt="Dirigeant serein" 
                     className="rounded-2xl shadow-2xl relative z-10 w-full object-cover aspect-[4/3]"
                   />
