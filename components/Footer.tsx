@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-slate-400 text-sm">
               <li><a href="#mentions-legales" className="hover:text-white transition-colors">Mentions Légales</a></li>
               <li><a href="#politique-confidentialite" className="hover:text-white transition-colors">Politique de Confidentialité</a></li>
-              <li><a href="mailto:libraudit@gmail.com" className="hover:text-white transition-colors">Contact</a></li>
+              <li><a href="michael.delhommeau@gmail.com" className="hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
 
