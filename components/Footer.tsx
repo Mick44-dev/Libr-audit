@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
              <div className="flex items-center space-x-3 mb-6">
               <div className="w-12 h-12 flex items-center justify-center">
                 <img 
-                  src="logoblanc.png" 
+                  src="/logoblanc.png" 
                   alt="LIBR'AUDIT" 
                   className="w-full h-full object-contain"
                 />
