@@ -103,7 +103,7 @@ ${formData.teamIAReason ? `   └ Raison : ${formData.teamIAReason}` : ''}
 • E-mail : ${formData.contactEmail}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Généré via Libr'Audit - Votre organisation libérée.
+Généré via Libr'Audit - Libérez votre organisation.
 `;
 
     const mailtoUrl = `michael.delhommeau@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
