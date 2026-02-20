@@ -30,7 +30,7 @@ const ConceptPage: React.FC = () => {
               <p className="text-lg text-slate-600 mb-8">
                 Dirigeants et salariés de TPE/PME (1–50 salariés) qui :
               </p>
-              <ul className="space-y-6">
+              <ul className="space-y-3">
                 {[
                   "Perdent du temps dans des process inefficaces.",
                   "Se sentent encombrés par des tâches sans valeur ajoutée.",
