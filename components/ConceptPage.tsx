@@ -37,7 +37,7 @@ const ConceptPage: React.FC = () => {
                   "Veulent reprendre le contrôle de leur organisation.",
                   "Cherchent à simplifier pour se concentrer sur leur valeur ajoutée."
                 ].map((item, idx) => (
-                  <li key={idx} className="flex gap-4 p-5 bg-slate-50 rounded-2xl border border-slate-100">
+                  <li key={idx} className="flex gap-3 p-3 bg-slate-50 rounded-2xl border border-slate-100">
                     <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center flex-shrink-0 mt-1">
                       <Target className="w-4 h-4" />
                     </div>
