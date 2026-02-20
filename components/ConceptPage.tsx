@@ -73,8 +73,8 @@ const ConceptPage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { title: "Gagnez du temps", desc: "En éliminant les tâches inutiles et répétitives.", icon: <Clock className="w-8 h-8" /> },
-              { title: "Sérénité retrouvée", desc: "Avec des process épurés et une vision limpide.", icon: <ShieldCheck className="w-8 h-8" /> },
-              { title: "Équipes autonomes", desc: "Grâce à des outils adaptés et une culture de confiance.", icon: <Users className="w-8 h-8" /> }
+              { title: "Sérénité retrouvée", desc: "Avec des process épurés et une vision claire.", icon: <ShieldCheck className="w-8 h-8" /> },
+              { title: "Équipes autonomes", desc: "Grâce à des outils sur mesure et une culture de confiance.", icon: <Users className="w-8 h-8" /> }
             ].map((item, idx) => (
               <AnimatedSection key={idx} delay={idx * 200} className="bg-slate-800 p-10 rounded-3xl border border-slate-700">
                 <div className="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mb-6">
